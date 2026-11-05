@@ -6,9 +6,9 @@ window.CIJIAN_BOOKS=[{
  description:'按原书 Day 学习单词，再按字母分组积累词组。',
  sourcesBase:'sources',preserveIds:true,data:window.VOCABULARY
 }, {
- id:'cet6',displayOrder:1,title:'六级词汇',shortTitle:'六级词汇',edition:'考试标签整理版',category:'英语六级',coverLabel:'CET-6',coverTitle:'大学英语\n六级词汇',
- description:'依据 ECDICT 六级标签整理，按词频每 100 词分组。词数按实际收录统计。',grouping:'个单词单元 · 按词频分组',
- sourceNote:'来源：ECDICT 的 cet6 标签（MIT 许可）。此整理版不等同于官方全量大纲。',data:window.CIJIAN_EXAM_BOOKS.cet6
+ id:'cet6',displayOrder:1,title:'晓艳带你学英语 · 六级高频单词',shortTitle:'晓艳六级高频单词',edition:'原书 Unit 整理版',category:'英语六级',coverLabel:'CET-6',coverTitle:'晓艳带你\n学英语',
+ description:'按《晓艳带你学英语·六级高频单词》原书 10 个 Unit 和顺序学习，重复词共享记录。',grouping:'个单词单元 · 按原书 Unit 分组',
+ sourceNote:'来源：用户提供的《晓艳带你学英语·六级高频单词》。扫描识别整理，释义可能有误，可在词条学习中校对。',data:window.CIJIAN_XIAOYAN_CET6
 }, {
  id:'postgraduate',displayOrder:2,title:'考研词汇',shortTitle:'考研词汇',edition:'考试标签整理版',category:'考研英语',coverLabel:'POSTGRAD',coverTitle:'考研英语\n核心词汇',
  description:'依据 ECDICT 考研标签整理，按词频每 100 词分组。重复词沿用已有学习记录。',grouping:'个单词单元 · 按词频分组',

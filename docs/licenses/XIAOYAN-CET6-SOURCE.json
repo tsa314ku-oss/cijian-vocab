@@ -1,0 +1,14 @@
+{
+  "title": "晓艳带你学英语·六级高频单词",
+  "source": "用户提供的同名 PDF 词书",
+  "pdfPages": 40,
+  "printedPages": "1–38",
+  "units": 10,
+  "sourceEntries": 1769,
+  "uniqueHeadwords": 1768,
+  "deduplication": "complement 在 Unit 6 和 Unit 8 出现，合并词义、共享记录，保留单元归属。",
+  "method": "扫描识别，按两栏和原书单元顺序整理；英文词头通过两轮 OCR 对照及词典拼写核对，修正可识别的字母混淆；不对识别的音标进行展示。",
+  "variants": "保留词书中英美拼写变体；规范显示一个拼写，另一个作为可接受答案。",
+  "quality": "释义可能有识别误差，支持个人校对。原书 represent 行混入的“典型的，有代表性的”是 representative 的形容词义，未纳入 represent 测试，并标记待核对。",
+  "originalFilePublished": false
+}
