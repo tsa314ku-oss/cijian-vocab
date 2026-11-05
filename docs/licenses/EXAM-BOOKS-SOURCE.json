@@ -1,0 +1,22 @@
+{
+  "source": "https://github.com/skywind3000/ECDICT",
+  "file": "ecdict.csv",
+  "sha256": "d1ecbdf9ee2b920afb6f430ca6b6bb9f559588cf0dff86e04bd255f9390843cc",
+  "license": "MIT",
+  "selection": {
+    "cet6": "tag contains cet6",
+    "ky": "tag contains ky"
+  },
+  "counts": {
+    "cet6": {
+      "words": 5407,
+      "units": 55
+    },
+    "ky": {
+      "words": 4801,
+      "units": 49
+    }
+  },
+  "deduplication": "NFKC, case, whitespace, apostrophes",
+  "note": "这些词库依据公开词典考试标签整理，不宣称是官方全量大纲或出版词书。"
+}

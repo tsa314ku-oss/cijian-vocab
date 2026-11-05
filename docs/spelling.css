@@ -1,0 +1,47 @@
+/* Letter feedback shares the warm botanical palette; marks also carry meaning. */
+.spelling-extra{display:flex;align-items:center;justify-content:space-between;gap:24px;padding:24px 28px;margin:22px 0;background:#eef3e7;border:1px dashed #b7c8a8;border-radius:18px}
+.spelling-extra h3{margin:8px 0;font-size:20px;color:#355b3d}.spelling-extra p{margin:0;color:#5d715b;font-size:14px;line-height:1.7}.spelling-extra button{flex:none;white-space:nowrap}
+.spelling-form{padding:26px 0 2px;border-top:1px solid var(--line,#e0e6db)}
+.spelling-heading{display:flex;align-items:center;justify-content:space-between;gap:16px;margin-bottom:19px}
+.spelling-heading .input-label{margin:0}
+.letter-legend{display:flex;gap:16px;font-size:13px;color:#546b5e;white-space:nowrap}
+.letter-legend span{display:flex;gap:5px;align-items:center}
+.letter-legend .right{color:#236345}.letter-legend .wrong{color:#a24139}
+.spelling-slots{display:flex;flex-wrap:wrap;align-items:center;gap:12px 0;max-width:100%;padding:5px 0 14px}
+.letter-group{display:inline-flex;gap:7px;flex-wrap:wrap;max-width:100%;align-items:center}
+.letter-separator{font:25px ui-monospace,SFMono-Regular,Menlo,monospace;white-space:pre;color:#62756a;align-self:center;padding:0 3px}
+.letter-separator.space{width:22px;flex:none;padding:0}
+.letter-slot{position:relative;display:inline-flex;align-items:center;justify-content:center;flex:none;width:46px;height:64px;background:#fafbf5;border:1.5px solid #9aaea0;border-bottom-width:3px;border-radius:11px;transition:background-color .12s,border-color .12s}
+.letter-slot input{width:100%;height:100%;min-width:0;padding:3px 0 12px;text-align:center;font:600 28px/1.1 ui-monospace,SFMono-Regular,Menlo,monospace;color:#263f32;background:transparent;border:0;outline:none;border-radius:9px;box-shadow:none;caret-color:#236345}
+.letter-slot input::placeholder{color:#8c9d91;opacity:1;font-weight:400}
+.letter-slot:focus-within{outline:3px solid #b1c8ab;outline-offset:3px}
+.letter-slot[data-status=correct]{background:#e7f2e4;border-color:#4b8657}
+.letter-slot[data-status=correct] input,.letter-slot[data-status=correct] .letter-mark{color:#245c36}
+.letter-slot[data-status=wrong]{background:#fff0e9;border-color:#ba6258}
+.letter-slot[data-status=wrong] input,.letter-slot[data-status=wrong] .letter-mark{color:#a03d34}
+.letter-mark{position:absolute;bottom:3px;font:700 12px/1 sans-serif;pointer-events:none}
+.spelling-status{min-height:24px;color:#4c6654;font-size:14px;margin:0 0 18px;line-height:1.6}
+.spelling-help{color:#607363;font-size:13px;line-height:1.75;margin:16px 0 0}
+.spelling-form .actions{flex-wrap:wrap}.spelling-form .actions .primary{margin-left:auto}
+.spelling-echo{padding-top:24px;border-top:1px solid var(--line,#e0e6db)}
+.spelling-echo .letter-slot{width:40px;height:57px}.spelling-echo .letter-slot input{font-size:25px}
+.spelling-echo .spelling-status{margin-top:9px}
+.spelling-assistance{padding:12px 16px;background:#f4f1df;border-radius:10px;color:#6d5a28;font-size:14px;line-height:1.7}
+@media(max-width:640px){.spelling-extra{padding:21px;align-items:flex-start;flex-direction:column;gap:15px}.spelling-heading{align-items:flex-start;flex-direction:column;gap:10px}.letter-slot{width:37px;height:56px}.letter-group{gap:6px}.letter-slot input{font-size:25px}.letter-separator.space{width:16px}.letter-legend{font-size:12px}.spelling-form{padding-top:22px}.spelling-help{font-size:12px}.spelling-echo .letter-slot{width:34px;height:51px}}
+@media(prefers-reduced-motion:reduce){.letter-slot{transition:none}}
+.choice-card{position:relative;min-width:0;display:flex}
+.choice-card .choice-option{width:100%;padding-right:76px}
+.choice-card .choice-state{padding-right:0}
+.meaning-toggle{position:absolute;right:12px;bottom:8px;z-index:1;padding:4px 8px;background:transparent;border:0;border-radius:6px;color:#526b55;font:500 12px/1.5 inherit;box-shadow:none;min-height:26px}
+.meaning-toggle:hover,.meaning-toggle[aria-expanded=true]{background:#e2ead8;color:#2e5135}
+.meaning-toggle:focus-visible{outline:2px solid #537b4b;outline-offset:2px}
+.option-meaning-popover{position:fixed;z-index:1000;box-sizing:border-box;max-height:min(360px,65vh);overflow:auto;padding:17px 19px;background:#fcfdf7;color:#2f4937;border:1px solid #c0d0b3;border-radius:14px;box-shadow:0 12px 40px #213e2829;text-align:left}
+.option-meaning-popover[hidden]{display:none}
+.option-meaning-title{display:flex;justify-content:space-between;gap:16px;align-items:center;padding-bottom:10px;border-bottom:1px solid #dce5d3}
+.option-meaning-title strong{font:600 23px Georgia,serif;overflow-wrap:anywhere}
+.option-meaning-title>span{font-size:12px;color:#62765a;white-space:nowrap}
+.option-meaning-popover ul{margin:12px 0 0;padding:0 0 0 18px}
+.option-meaning-popover li{padding:4px 0;font-size:15px;line-height:1.7;overflow-wrap:anywhere}
+.option-meaning-popover li>span{font-size:12px;color:#657961;margin-right:7px}
+.choice-hint-note{font-size:12px;color:#60735b;line-height:1.7;margin:12px 0 0}
+@media(max-width:640px){.choice-card .choice-option{padding-right:67px}.meaning-toggle{right:8px;bottom:5px}.option-meaning-popover{padding:14px 16px}}

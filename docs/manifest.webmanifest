@@ -1,0 +1,1 @@
+{"name": "词间 · 单词学习", "short_name": "词间", "lang": "zh-CN", "start_url": "./#library", "scope": "./", "display": "standalone", "background_color": "#f4f5ec", "theme_color": "#e9eee1", "icons": [{"src": "assets/leaf.svg", "sizes": "any", "type": "image/svg+xml"}]}

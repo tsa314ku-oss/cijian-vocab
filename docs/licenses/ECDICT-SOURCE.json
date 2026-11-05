@@ -1,0 +1,10 @@
+{
+  "name": "ECDICT 常用词离线版",
+  "count": 59137,
+  "source": "https://github.com/skywind3000/ECDICT",
+  "sourceFile": "ecdict.csv",
+  "sourceSha256": "d1ecbdf9ee2b920afb6f430ca6b6bb9f559588cf0dff86e04bd255f9390843cc",
+  "license": "MIT",
+  "selection": "BNC/FRQ rank <= 50000, or exam tags, Collins stars, or Oxford flag",
+  "builtAt": "2026-10-26"
+}
