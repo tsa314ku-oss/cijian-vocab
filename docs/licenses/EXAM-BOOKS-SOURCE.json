@@ -4,14 +4,19 @@
   "sha256": "d1ecbdf9ee2b920afb6f430ca6b6bb9f559588cf0dff86e04bd255f9390843cc",
   "license": "MIT",
   "selection": {
-    "ky": "tag contains ky"
+    "ky": "tag contains ky",
+    "cet4": "tag contains cet4"
   },
   "counts": {
     "ky": {
       "words": 4801,
       "units": 49
+    },
+    "cet4": {
+      "words": 3849,
+      "units": 39
     }
   },
   "deduplication": "NFKC, case, whitespace, apostrophes",
-  "note": "考研词库依据公开词典 ky 标签整理，不宣称为官方全量大纲；六级词书另见 XIAOYAN-CET6-SOURCE.json。"
+  "note": "四级、考研词库分别依据公开词典 cet4、ky 标签整理，不宣称为官方全量大纲；六级词书另见 XIAOYAN-CET6-SOURCE.json。"
 }
